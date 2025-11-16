@@ -10,7 +10,7 @@ public class LanceurProgramme {
                 new NoteElement(17, 3)
         };
 
-        FicheEtudiant etu = new FicheEtudiant("Ines", notes);
+        FicheEtudiant etu = new FicheEtudiant("Merlin", notes);
         etu.afficher();
 
         int id = EtudiantDAO.inserer(etu);
